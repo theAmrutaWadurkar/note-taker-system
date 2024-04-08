@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+
+<style>
+h1{
+	color:green;
+}
+body{
+	text-align:center;
+}
+.one{
+	border:2px black solid;
+	width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+	background-color:gray;
+}
+.two{
+	background-color:black;
+	color:white;
+}
+.three{
+	background-color:green;
+	color:yellow;
+}
+
+<!-- xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxxooxoxooxoxooxoxoxoxoxoxo -->
+
+</style>
+
+</head>
+<body>
+<form action="autho" method="post">
+<div class="one">
+<h1>Login Here</h1>
+<br>
+Name: <input class="two" type="text" name="uname" placeholder="Enter Name"/>
+<br><br>
+Pass: <input class="two" type="password" name="pass" placeholder="Enter Password"/>
+<br><br>
+<a href="http://localhost:8080/SecondServlet/second">Click To Go</a>
+<br><br>
+<input class="three" type="submit" name="log" value="login" />
+</div>
+</form>
+</body>
+</html>

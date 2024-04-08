@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>FetchingProblem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>NewSrv</servlet-name>
+  <servlet-class>NewPack.NewSrv</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>NewSrv</servlet-name>
+  <url-pattern>/newsrv</url-pattern>
+  </servlet-mapping>
+  
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <servlet>
+  <servlet-name>Registration</servlet-name>
+  <servlet-class>NewPack.Registration</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Registration</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <servlet>
+  <servlet-name>AuthorizedLogin</servlet-name>
+  <servlet-class>NewPack.AuthorizedLogin</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>AuthorizedLogin</servlet-name>
+  <url-pattern>/autho</url-pattern>
+  </servlet-mapping>
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+   
+   <servlet>
+  <servlet-name>NoteWriter</servlet-name>
+  <servlet-class>NewPack.NoteWriter</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>NoteWriter</servlet-name>
+  <url-pattern>/writer</url-pattern>
+  </servlet-mapping>
+   
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <servlet>
+  <servlet-name>SavedNotes</servlet-name>
+  <servlet-class>NewPack.SavedNotes</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SavedNotes</servlet-name>
+  <url-pattern>/saved</url-pattern>
+  </servlet-mapping>
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+   
+   
+     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <servlet>
+  <servlet-name>LifeCycle</servlet-name>
+  <servlet-class>NewPack.LifeCycle</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LifeCycle</servlet-name>
+  <url-pattern>/cycle</url-pattern>
+  </servlet-mapping>
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+  <servlet>
+  <servlet-name>Serv2</servlet-name>
+  <servlet-class>NewPack.Serv2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Serv2</servlet-name>
+  <url-pattern>/two</url-pattern>
+  </servlet-mapping>
+  
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+  <servlet>
+  <servlet-name>Serv1</servlet-name>
+  <servlet-class>NewPack.Serv1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Serv1</servlet-name>
+  <url-pattern>/one</url-pattern>
+  </servlet-mapping>
+  
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+  <servlet>
+  <servlet-name>Update</servlet-name>
+  <servlet-class>NewPack.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Update</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <servlet>
+  <servlet-name>UDConnect</servlet-name>
+  <servlet-class>NewPack.UDConnect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UDConnect</servlet-name>
+  <url-pattern>/udconnect</url-pattern>
+  </servlet-mapping>
+   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+  <servlet>
+  <servlet-name>ServHtml</servlet-name>
+  <servlet-class>NewPack.ServHtml</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ServHtml</servlet-name>
+  <url-pattern>/servhtml</url-pattern>
+  </servlet-mapping>
+  
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
+   <servlet>
+  <servlet-name>Delete</servlet-name>
+  <servlet-class>NewPack.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Delete</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+   
+   
+   
+    <servlet>
+  <servlet-name>Logout</servlet-name>
+  <servlet-class>NewPack.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Logout</servlet-name>
+  <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+</web-app>

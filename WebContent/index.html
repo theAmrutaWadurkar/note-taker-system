@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<style type="text/css">
+
+body{
+
+background-image:url('book4.jpg');
+background-size:cover;
+
+}
+h1{
+text-shadow: 7px 8px 6px #42607d;
+text-align:center;
+color:#57143e;
+
+}
+.btn{
+border-radius: 20px 20px;
+margin-left:37%;
+margin-top:8%;
+border: 3px solid black;
+padding:7px;
+padding-left:16px;
+padding-right:16px;
+}
+.main{
+position:absolute;
+/* background-image:url('applebook.jpg'); */
+background-size:cover;
+/* background-color:black; */
+background-size:cover;
+left:5%;
+padding:2%;
+/* border:10px double black; */
+
+width:50%;
+margin:0 auto;
+margin-top:5%;
+display:inline-block;
+}
+
+form{
+margin-left:10%;
+ /* border: 3px solid black; */
+ border-radius:25px;
+display:inline-block;
+padding:20px;
+/* background-color:#cfad06; */
+}
+
+
+input{
+margin:8px;
+border: 2px double green;
+background-color:black;
+color:white;
+}
+::placeholder{
+color:white !important;
+}
+
+input[type="submit"]{
+color:white;
+background-color:green;
+}
+.lab{
+font-weight:bold;
+width:125px;
+color:black;
+
+}
+
+.inpu{
+display:flex;
+align-items:center;
+}
+
+.link{
+color:black;
+margin-top:4px;
+}
+img{
+margin-top:10%;
+margin-left:62%;
+z-index:9999;
+width:350px;
+height:450px;
+}
+.f{
+margin-top:10%;
+margin-left:42%;
+width:30px;
+height:40px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="main">
+	<form action="register" method="post">
+		
+
+			<h1>Register Here</h1>
+			<div class="inpu">
+				<div class="lab"><label>Username : </label></div><input type="text" class="inp" name="username"
+					placeholder="Enter Username" required>
+			</div>
+			<div class="inpu">
+				<div class="lab"><label>CreatePassword : </label></div><input type="password" class="inp" name="password"
+					placeholder="Enter Password" required>
+			</div>
+			
+			<div class="inpu">
+			<div class="lab"><label>FirstName : </label></div><input type="text" class="inp" name="firstname"
+					placeholder="Enter Firstname" required>
+			</div>
+			
+			<div class="inpu">
+			<div class="lab"><label>LastName : </label></div><input type="text" class="inp" name="lastname"
+					placeholder="Enter Lastname" required>
+			</div>
+			
+			<div class="inpu">
+			<div class="lab"><label>Mobile No. : </label></div><input type="text" class="inp" name="mobile"
+					placeholder="Enter Mobile No." required>
+			</div>
+			
+			<div class="inpu">
+			<div class="lab"><label>Email : </label></div><input type="email" class="inp" name="email"
+					placeholder="Enter Email" required>
+			</div>
+			
+			<div>
+			<input type="submit" class="btn"
+					value="Register">
+			</div>
+			
+			<div class="link">
+			Already have an account?..
+			<a href="NewLogin.html">Click Here</a>
+			</div>
+			
+
+		
+	</form>
+<!-- 		<img src="talk.png">
+ -->	</div>
+<img src="namaste.png">
+<!-- <img class="f" src="note.png"> -->
+</body>
+</html>
